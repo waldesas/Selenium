@@ -1,0 +1,173 @@
+{
+  "id": "d330aa74-ea1b-428e-b9bb-75211414ba30",
+  "version": "2.0",
+  "name": "Amazon",
+  "url": "https://www.amazon.de",
+  "tests": [{
+    "id": "b563ed8a-7720-4570-9266-991329218cce",
+    "name": "Bestseller im Baumarkt",
+    "commands": [{
+      "id": "7d2dcd34-c457-4f83-8a3a-6011d1423df1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de833f74-f71f-4435-9b75-8a6849800ea2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1128",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c444c62f-b1b5-4914-97dd-f8e032e1dd6a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#x24VkT9JowgVwmoyXvA0KQ .\\_cropped-image-link_style_fluidLandscapeImage__3eTVC",
+      "targets": [
+        ["css=#x24VkT9JowgVwmoyXvA0KQ .\\_cropped-image-link_style_fluidLandscapeImage__3eTVC", "css:finder"],
+        ["xpath=//img[@alt='Wir versenden über 290 Millionen Produkte in die Schweiz']", "xpath:img"],
+        ["xpath=//div[@id='x24VkT9JowgVwmoyXvA0KQ']/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a06b2c13-503d-4776-937c-c9dcecc8820a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#nav-signin-tooltip .nav-action-inner",
+      "targets": [
+        ["css=#nav-signin-tooltip .nav-action-inner", "css:finder"],
+        ["xpath=//div[@id='nav-signin-tooltip']/a/span", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cb902cb-3351-4adb-a858-abc3043aebd2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#nav-signin-tooltip .nav-action-inner",
+      "targets": [
+        ["css=#nav-signin-tooltip .nav-action-inner", "css:finder"],
+        ["xpath=//div[@id='nav-signin-tooltip']/a/span", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb8c6e4-ed01-4b4d-87d4-e3c8f0f8ae57",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icp-nav-flag",
+      "targets": [
+        ["css=.icp-nav-flag", "css:finder"],
+        ["xpath=//a[@id='icp-nav-flyout']/span/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1261c64b-8459-45c3-b881-7b697c9fbf8a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icp-nav-flag",
+      "targets": [
+        ["css=.icp-nav-flag", "css:finder"],
+        ["xpath=//a[@id='icp-nav-flyout']/span/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6479c804-1207-4a0d-9366-2d19a63a194c",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchDropdownBox",
+      "targets": [
+        ["id=searchDropdownBox", "id"],
+        ["name=url", "name"],
+        ["css=#searchDropdownBox", "css:finder"],
+        ["xpath=//select[@id='searchDropdownBox']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-search-dropdown-card']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c2ce506-c2a4-47bf-8e47-b48491715f44",
+      "comment": "",
+      "command": "select",
+      "target": "id=searchDropdownBox",
+      "targets": [],
+      "value": "label=Amazon Geräte"
+    }, {
+      "id": "8e95de09-6852-45c4-b3c3-7d4ac5f4bba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hm-icon",
+      "targets": [
+        ["css=.hm-icon", "css:finder"],
+        ["xpath=//a[@id='nav-hamburger-menu']/i", "xpath:idRelative"],
+        ["xpath=//a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97a12cc7-d6fe-4959-bcbb-13658efa734a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hmenu-visible > li:nth-child(2) > .hmenu-item",
+      "targets": [
+        ["css=.hmenu-visible > li:nth-child(2) > .hmenu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bestseller')])[2]", "xpath:link"],
+        ["xpath=//div[@id='hmenu-content']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/?ref_=nav_em_cs_bestsellers_0_1_1_2')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11f25a21-d719-4c2c-9523-0be8eeb80e51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_p13n-zg-nav-tree-all_style_zg-browse-item__1rdKf:nth-child(7) > a",
+      "targets": [
+        ["css=.\\_p13n-zg-nav-tree-all_style_zg-browse-item__1rdKf:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Baumarkt')])[2]", "xpath:link"],
+        ["xpath=//div[@id='CardInstance-BpWaXnWtEGBR-4d2bHQxw']/div[2]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/diy/ref=zg_bs_nav_0')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e06ddf-2c7c-49b9-a59a-8b40e38b0e91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#B07ZKLYVHQ .a-dynamic-image",
+      "targets": [
+        ["css=#B07ZKLYVHQ .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='720°DGREE Trinkflasche 1l Sport “uberBottle“ softTouch +Sieb - BPA-Frei - Wasserflasche für Uni, Arbeit, Fitness, Fahrrad, Ou']", "xpath:img"],
+        ["xpath=//div[@id='B07ZKLYVHQ']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1b7f680-f8c4-40b2-8a49-8c2bcf3b02d4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#B07ZKLYVHQ .a-dynamic-image",
+      "targets": [
+        ["css=#B07ZKLYVHQ .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='720°DGREE Trinkflasche 1l Sport “uberBottle“ softTouch +Sieb - BPA-Frei - Wasserflasche für Uni, Arbeit, Fitness, Fahrrad, Ou']", "xpath:img"],
+        ["xpath=//div[@id='B07ZKLYVHQ']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "58311f8f-6960-4a6b-90ee-f80d971be372",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b563ed8a-7720-4570-9266-991329218cce"]
+  }],
+  "urls": ["https://www.amazon.de/"],
+  "plugins": []
+}

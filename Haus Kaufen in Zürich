@@ -1,0 +1,258 @@
+{
+  "id": "f729c4a7-1171-419d-8491-7ac3b4002013",
+  "version": "2.0",
+  "name": "Mieten und Kaufen in Zürich",
+  "url": "https://www.alle-immobilien.ch",
+  "tests": [{
+    "id": "9bd98daa-107d-4dd2-a92e-41d159ee33f8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "41660ebf-088e-4743-a3eb-444c7f3deb60",
+      "comment": "",
+      "command": "open",
+      "target": "/de/mieten/wohnung/kanton-zuerich/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6318b386-66ea-46fd-bd55-6bdacab29be9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1128",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8e96e51-7398-4e51-80d9-69c60eb74966",
+      "comment": "",
+      "command": "click",
+      "target": "id=onetrust-accept-btn-handler",
+      "targets": [
+        ["id=onetrust-accept-btn-handler", "id"],
+        ["css=#onetrust-accept-btn-handler", "css:finder"],
+        ["xpath=//button[@id='onetrust-accept-btn-handler']", "xpath:attributes"],
+        ["xpath=//div[@id='onetrust-button-group']/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Akzeptieren')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "300c5f23-475d-4f64-b2f1-b479086cc804",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__categoryswitch > .nice-select",
+      "targets": [
+        ["css=.filters__categoryswitch > .nice-select", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebc6bd74-4fa2-47a8-87d6-30ce59ad0d6c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mieten",
+      "targets": [
+        ["linkText=Mieten", "linkText"],
+        ["css=.option > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Mieten')]", "xpath:link"],
+        ["xpath=//form[@id='filter-form']/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/mieten/wohnung/kanton-zuerich/')]", "xpath:href"],
+        ["xpath=//form/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mieten')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3968e0ec-9feb-471e-a6b6-5ac7f127b79c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(2)",
+      "targets": [
+        ["css=.open .option:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2917cb16-5b06-4baf-9b92-6ad11811628d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search__viewless > .nice-select:nth-child(3)",
+      "targets": [
+        ["css=.search__viewless > .nice-select:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "949611fe-78eb-493e-8960-c9232c7cc433",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(1)",
+      "targets": [
+        ["css=.open .option:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Wohnung & Haus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9e5a04-cb5c-4aca-9fbf-6d3d9e4976a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__group__filter:nth-child(3) .nice-select:nth-child(3)",
+      "targets": [
+        ["css=.filters__group__filter:nth-child(3) .nice-select:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a28f26d-e9a2-4ee6-bb0f-614812c1ca7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(16)",
+      "targets": [
+        ["css=.open .option:nth-child(16)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[3]/div/div/ul/li[16]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/ul/li[16]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08f38c8f-1080-46a1-b336-4d599acca18a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__group__filter:nth-child(3) .nice-select:nth-child(7) > .current",
+      "targets": [
+        ["css=.filters__group__filter:nth-child(3) .nice-select:nth-child(7) > .current", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[3]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'max.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "780eb5bf-bbbb-427a-9c47-558507648ad9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(18)",
+      "targets": [
+        ["css=.open .option:nth-child(18)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[3]/div/div[2]/ul/li[18]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[18]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd3cd5d-c4ee-42bd-bd0d-96f3d80b5cfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(4)",
+      "targets": [
+        ["css=.open .option:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[4]/div/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28bfe0d6-f2a3-4841-b750-7a6613ca062e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__group__filter:nth-child(4) .nice-select:nth-child(7) > .current",
+      "targets": [
+        ["css=.filters__group__filter:nth-child(4) .nice-select:nth-child(7) > .current", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[4]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'max.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acabca78-23c7-4dab-9738-b0836f0de784",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__group__filter:nth-child(4) .nice-select:nth-child(7) > .current",
+      "targets": [
+        ["css=.filters__group__filter:nth-child(4) .nice-select:nth-child(7) > .current", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[4]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'max.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ef39edc-8c33-4b69-88b5-ec7be8b83205",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(10)",
+      "targets": [
+        ["css=.open .option:nth-child(10)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[4]/div/div[2]/ul/li[10]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/ul/li[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095b8df0-24c6-446d-9cb5-9dfefdd4384d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__group__filter:nth-child(5) .nice-select:nth-child(3) > .current",
+      "targets": [
+        ["css=.filters__group__filter:nth-child(5) .nice-select:nth-child(3) > .current", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[5]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'min.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f41b6ab0-a452-4d9d-8086-bea369d646f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__group__filter:nth-child(5) .nice-select:nth-child(7) > .current",
+      "targets": [
+        ["css=.filters__group__filter:nth-child(5) .nice-select:nth-child(7) > .current", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[5]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'max.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0962a265-6048-4b43-a424-2cbc539e1e01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(7)",
+      "targets": [
+        ["css=.open .option:nth-child(7)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[5]/div/div[2]/ul/li[7]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/ul/li[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58a75087-f8e3-4a7f-b8c2-4296d26adaaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open .option:nth-child(6)",
+      "targets": [
+        ["css=.open .option:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='filter-form']/div/div[5]/div/div/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul/li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'150m²')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36fb8461-b0d6-4180-8609-892e5fc1ac27",
+      "comment": "Anzahl Zimmer",
+      "command": "verifyText",
+      "target": "css=#search-result-list-ad-link-3002931906 .col-xs-6:nth-child(3)",
+      "targets": [
+        ["css=#search-result-list-ad-link-3002931906 .col-xs-6:nth-child(3)", "css:finder"],
+        ["xpath=//a[@id='search-result-list-ad-link-3002931906']/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": "4.5"
+    }]
+  }],
+  "suites": [{
+    "id": "c90540c7-e9c2-42fb-98f2-da4cefeacc25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9bd98daa-107d-4dd2-a92e-41d159ee33f8"]
+  }],
+  "urls": ["https://www.alle-immobilien.ch/"],
+  "plugins": []
+}
